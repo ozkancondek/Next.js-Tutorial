@@ -1,0 +1,1 @@
+-next is SSR thats mean server renders the component and sends it to browser as html

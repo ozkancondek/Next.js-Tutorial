@@ -1,7 +1,9 @@
-export default function Home() {
+import React from "react";
+
+const About = () => {
   return (
     <div>
-      <h1>homepage</h1>
+      <h1>About</h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, dolor!
       </p>
@@ -10,4 +12,6 @@ export default function Home() {
       </p>
     </div>
   );
-}
+};
+
+export default About;
