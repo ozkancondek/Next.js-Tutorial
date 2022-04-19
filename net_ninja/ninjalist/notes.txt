@@ -1,1 +1,6 @@
 -next is SSR thats mean server renders the component and sends it to browser as html
+
+1#Pages Routes
+2#Addin component to Page
+3#Linking Pages => when i clicked a route, there is no fetching for this route more
+4#Create Layout
