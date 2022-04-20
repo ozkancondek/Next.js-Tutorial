@@ -13,7 +13,7 @@ const Navbar = () => {
         <a>About</a>
       </Link>
       <Link href="/ozkan">
-        <a>ozkan page</a>
+        <a>Pages-Ozkan</a>
       </Link>
     </nav>
   );
