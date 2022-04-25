@@ -1,7 +1,9 @@
+import styles from "../../styles/Ozkan.module.css";
+
 const Ozkan = () => {
   return (
-    <div>
-      <p>main directory for all Ozkan files</p>
+    <div className={styles.main}>
+      <p className={styles.text}>main directory for all Ozkan files</p>
       All Ozkan files
     </div>
   );

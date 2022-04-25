@@ -4,4 +4,5 @@
 2#Addin component to Page
 3#Linking Pages => when i clicked a route, there is no fetching for this route more
 4#Create Layout
-5#Adding Style => there is a global style file in styles 
+5#Adding Style => there is a global style file in styles
+6#Custom 404 page 
