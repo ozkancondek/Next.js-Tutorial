@@ -1,16 +1,24 @@
 import React from "react";
-
+import Head from "next/head";
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, dolor!
-      </p>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, dolor!
-      </p>
-    </div>
+    <>
+      <Head>
+        <title> Ozkan List | Home</title>
+        <meta name="keywords" content="ozkan"></meta>
+      </Head>
+      <div>
+        <h1>About</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae,
+          dolor!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae,
+          dolor!
+        </p>
+      </div>
+    </>
   );
 };
 

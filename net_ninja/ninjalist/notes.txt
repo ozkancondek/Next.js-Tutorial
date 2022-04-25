@@ -7,3 +7,4 @@
 5#Adding Style => there is a global style file in styles
 6#Custom 404 page => for any unrelated roots
 7#Redirect users
+8#Images and Metadata => add  image  to public folder
