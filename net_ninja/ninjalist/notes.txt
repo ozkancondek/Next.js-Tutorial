@@ -9,3 +9,4 @@
 7#Redirect users
 8#Images and Metadata => add  image  to public folder
 9#Fetching Data
+10#Dynamic Routes => add changeable component 

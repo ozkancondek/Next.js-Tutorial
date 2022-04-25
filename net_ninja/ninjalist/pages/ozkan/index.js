@@ -1,4 +1,5 @@
 import styles from "../../styles/Ozkan.module.css";
+import Link from "next/link";
 //this function not gonna run in browser
 export const getStaticProps = async () => {
   const response = await fetch("https://jsonplaceholder.typicode.com/users");
@@ -15,11 +16,11 @@ const Ozkan = ({ ozkan }) => {
       <p className={styles.text}>main directory for all Ozkan files</p>
       <p className={styles.text}>Fetching Data</p>
       {ozkan.map((user) => (
-        <div key={user.id}>
+        <Link href={"/ozkan/" + user.id} key={user.id}>
           <a className={styles.single}>
             <h3>{user.name}</h3>
           </a>
-        </div>
+        </Link>
       ))}
     </div>
   );
