@@ -1,0 +1,8 @@
+-Next.js is an Frontend Framework
+-installation
+    -npx crrate-next-app myapp
+    -npm i next react react-dom --save
+    then contuniu the create page folder
+-undex.jsx file under page is main route
+-i fi create a folder here its gonna be sub path
+-use [] to create file with parameter
