@@ -6,3 +6,5 @@
 -undex.jsx file under page is main route
 -i fi create a folder here its gonna be sub path
 -use [] to create file with parameter
+-if i add .module extension to css filr i can import them from every place
+-but, css.modules needs to class name, i can not import pure css tags like body
