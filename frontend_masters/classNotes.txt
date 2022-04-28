@@ -8,3 +8,5 @@
 -use [] to create file with parameter
 -if i add .module extension to css filr i can import them from every place
 -but, css.modules needs to class name, i can not import pure css tags like body
+-add ThemeUI package => npm i theme-ui @theme-ui/presets --save
+-then add theme.js to main directory

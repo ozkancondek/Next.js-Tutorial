@@ -5,8 +5,8 @@ const Page = () => {
   return (
     <div>
       <h3>Note index page</h3>
-      <Link href="/notes/[id]" as={"/notes/1"}>
-        <a>Note 1</a>
+      <Link href="/notes/[id]" as={"/notes/all"}>
+        <a>All Notes</a>
       </Link>
     </div>
   );
