@@ -10,3 +10,4 @@
 -but, css.modules needs to class name, i can not import pure css tags like body
 -add ThemeUI package => npm i theme-ui @theme-ui/presets --save
 -then add theme.js to main directory
+-sx works like style attribute inline  with styling a HTML element
