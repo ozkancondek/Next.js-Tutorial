@@ -20,4 +20,6 @@
 -install packages then tsconfig file wull be created automatically
 -then change the file extentions
 -npm i next-connect to api routes connections
+-We gonna add data to src 
+
 
