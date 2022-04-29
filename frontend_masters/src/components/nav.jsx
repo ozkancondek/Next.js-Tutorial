@@ -38,6 +38,16 @@ const Nav = () => (
           notes
         </a>
       </Link>
+      <a
+        sx={{
+          color: "text",
+          fontSize: 3,
+          cursor: "pointer",
+        }}
+        href={process.env.READ_ME}
+      >
+        INFO
+      </a>
     </nav>
   </header>
 );

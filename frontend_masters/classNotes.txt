@@ -11,3 +11,5 @@
 -add ThemeUI package => npm i theme-ui @theme-ui/presets --save
 -then add theme.js to main directory
 -sx works like style attribute inline  with styling a HTML element
+-npm i next-env dotenv-load --dev to get data from .env file
+-you can also setup next.config.js file
