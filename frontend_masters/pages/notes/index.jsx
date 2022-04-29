@@ -53,7 +53,7 @@ export default ({ notes }) => {
 export async function getServerSideProps() {
   const res = await fetch(`http://localhost:3000/api/note/`);
   const { data } = await res.json();
-  console.log(data);
+  //console.log(data);
   return {
     props: { notes: data },
   };
