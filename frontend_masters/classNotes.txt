@@ -13,3 +13,11 @@
 -sx works like style attribute inline  with styling a HTML element
 -npm i next-env dotenv-load --dev to get data from .env file
 -you can also setup next.config.js file
+-to configure typescript to project
+-create tsconfig.js
+-start project again 
+-read "install ts packages" warning on consol
+-install packages then tsconfig file wull be created automatically
+-then change the file extentions
+-npm i next-connect to api routes connections
+
