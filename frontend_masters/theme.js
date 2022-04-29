@@ -4,7 +4,7 @@ const theme = {
   ...roboto,
   colors: {
     ...roboto.colors,
-    background: "aqua",
+    background: "#fff",
   },
   containers: {
     card: {
