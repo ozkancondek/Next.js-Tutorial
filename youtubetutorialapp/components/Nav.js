@@ -26,6 +26,11 @@ const Nav = () => {
             <a>Fast Refresh</a>
           </Link>
         </li>
+        <li>
+          <Link href="/users">
+            <a>Users</a>
+          </Link>
+        </li>
       </ul>
     </nav>
   );
