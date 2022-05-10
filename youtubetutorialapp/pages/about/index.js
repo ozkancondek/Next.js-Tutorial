@@ -1,8 +1,14 @@
+import Head from "next/head";
+
 const About = () => {
   return (
-    <div>
-      <h2>This is about me page</h2>
-    </div>
+    <>
+      <Head>
+        <title>About Page</title>
+        <link rel="icon" href="/vercel.svg" />
+      </Head>
+      <h2>About Page </h2>
+    </>
   );
 };
 
