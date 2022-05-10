@@ -1,1 +1,1 @@
- 
+ - u should import global.css file in _app.js
