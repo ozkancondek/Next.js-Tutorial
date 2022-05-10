@@ -7,13 +7,16 @@ const About = () => {
         <title>About Page</title>
         <link rel="icon" href="/vercel.svg" />
       </Head>
-      <h2 className="greenColor">About Page </h2>
+      <h2 className="greenColor bigText">About Page </h2>
       <style jsx>{`
         .greenColor {
           color: green;
         }
         .redColor {
           color: red;
+        }
+        .bigText {
+          font-size: 100px;
         }
       `}</style>
     </>
