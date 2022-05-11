@@ -27,7 +27,7 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          <Link href="/users">
+          <Link href="/user">
             <a>Users</a>
           </Link>
         </li>

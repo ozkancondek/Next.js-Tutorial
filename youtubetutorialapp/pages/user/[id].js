@@ -25,7 +25,35 @@ const UserDetail = ({ user }) => {
   );
 };
 
-export const getServerSideProps = async (context) => {
+// page created with user request
+// export const getServerSideProps = async (context) => {
+//   const res = await fetch(
+//     `https://jsonplaceholder.typicode.com/users/${context.params.id}`
+//   );
+//   const user = await res.json();
+//   return {
+//     props: {
+//       user,
+//     },
+//   };
+// };
+
+//all pages created before
+export const getStaticPaths = async () => {
+  const res = await fetch("https://jsonplaceholder.typicode.com/users/");
+  const users = await res.json();
+  const paths = users.map((user) => {
+    return {
+      params: { id: user.id.toString() },
+    };
+  });
+  return {
+    paths,
+    fallback: false, // go to error page if i cant find localhost:300/user/45454545454dqw
+  };
+};
+
+export const getStaticProps = async (context) => {
   const res = await fetch(
     `https://jsonplaceholder.typicode.com/users/${context.params.id}`
   );
